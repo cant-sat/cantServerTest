@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.gitignore" : true,
+        "**/Cargo.lock" : true,
+        "**/LICENSE" : true,
+        "**/README.md" : true,
+        "**/Cargo.toml" : true,
+        "**/target" : true,
+    }
+}
