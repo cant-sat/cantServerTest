@@ -7,7 +7,7 @@ use json::{object, stringify};
 use websocket::{client, url::Url, ClientBuilder, Message};
 
 fn main() {
-    let mut client = ClientBuilder::new("ws://54.93.196.44:443")
+    let mut client = ClientBuilder::new("ws://server.cant.hu:443")
         .unwrap()
         .connect_insecure()
         .unwrap();
